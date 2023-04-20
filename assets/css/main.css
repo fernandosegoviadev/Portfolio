@@ -2099,6 +2099,9 @@ input, select, textarea {
 		margin: 1.75em 1.5em 1.5em 1.5em;
 		min-height: 48px;
 		cursor: default;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
 	}
 
 		#logo h1 {
@@ -2119,7 +2122,7 @@ input, select, textarea {
 		}
 
 		#logo .image {
-			position: absolute;
+			position: relative;
 			left: 0;
 			top: 0;
 		}
